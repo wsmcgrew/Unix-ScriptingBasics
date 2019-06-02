@@ -6,10 +6,4 @@
 
 * What is covered
 
-1) Basic commands
-
-2) How to redirect input and output
-
-3) General scripting loops, variables and how to assign them.
-
 **some knowledge of vim is helpful**
