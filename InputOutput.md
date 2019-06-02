@@ -1,6 +1,6 @@
 # Shell Input Output
 
-## 2.2.1
+## Basic Input
 
 "Everything is a file"
 
@@ -36,13 +36,13 @@ File descriptors can be redirected into different areas, other than the terminal
 and example, say we create a file called input_file with `alpha, bravo, charlie, delta`
 Using `grep a < input_file` it will look to the file for strings that contain the letter "A"
 
-Piping commands
+Pipeing commands
 
 ```command1 | command2```
 
 Pipe commands takes the output of command1 and is used as input for command 2.
 
-# 2.2.3 Script IO.
+## Script IO.
 
 Propting users for input can be done, in bash, using the `read` command and can set multiple variables at once. csh uses   `set var=$<` and only sets one at a time.
 

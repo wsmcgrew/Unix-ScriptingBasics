@@ -1,6 +1,6 @@
 # Shell Configuration Reconn: 2.x.x
  
- # 2.1.1
+ # Shell Basics
 
 - Determine what shell is being used. Sometimes, you're unable to switch shells. can find the 
 - A variable called 0 allows us to look up what shell we're using. 
@@ -29,9 +29,7 @@ Shells can be configured by startup scripts. These are script files that define 
 
 - The systemwide ```/etc/csh.cshrc``` is first executed, followed by ```/etc/csh.login``` if it is a login shell. It will then execute the user specific ```~/.cshrc``` script and, if it is a login shell, the ```~/.login``` script.
 
-***Note that Bryan gave me his ``` ~/.bashrc ``` scirpt at DXC***
-
-# 2.1.3 Script execution
+# Script execution
 
 ```#!/bin/bash``` This is a special directive that tells which interpreter is going to run the script. Bellow is a bash script called HelloWorld.sh
 
@@ -55,7 +53,7 @@ The user will need to be within the same directory as the execuatable. However o
       - This means that 7 is rwx, 6 rw, and 4 r. 
       - Permissions are changed through `chmod`. So to retain the permisions above: `chmod 764` where the numbers are (user, group others)
       
-# 2.1.5 Variables
+# Variables
 
 To creat a variable can be created by `var_name=`. In csh will need to set. `set var_name=SomeValue`
 
