@@ -15,7 +15,7 @@
 
 - Command History. More cyber reason is to see what other people have done. Name of the file is different for each shell. Can view by looking at $HISTFILE. All commands are sent here. To run commands agin run ``` !! ``` runs the last command. or using ``` !164 ``` will run from the history. 
 ### Basic commands
-- cat /etc/passowrd
+- cat /etc/passwrd
 - ssh user@freebsd9 --> cat /etc/passwd
 
 During login the program sets an environment variable,``` SHELL ```, which can be quired. the command would be somehtin as ```echo $SHELL```. That will give an output simular to ``` /bin/bash``` or ``` /bin/sh```
